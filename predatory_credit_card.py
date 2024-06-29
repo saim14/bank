@@ -9,7 +9,7 @@ class PredatoryCreditCard(credit_card.CreditCard):
   
   #Override the function charge(price)
   def charge(self, price):
-    success = super().charge(price):
+    success = super().charge(price)
  
   #you can create new method here, no special syntax is needed
   def subliminary(self,sub_name):
